@@ -1,0 +1,19 @@
+.list   {
+    display: flex;
+    gap: 100px; 
+    justify-content: center;
+}
+.list_item{
+    list-style: none;
+    font-size: 30px;
+    background: linear-gradient(to left,
+ black,blue,gray,green,black);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animation 10s linear infinite;
+}
+
+@keyframes animated{
+    to{background-position-x: 161px;}
+}
